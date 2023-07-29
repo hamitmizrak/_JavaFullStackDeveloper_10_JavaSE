@@ -26,7 +26,6 @@ public class _03_Primitive {
         System.out.println("Kalan:"+(number1%number2));
 
         // &&=VE ||=VEYA !=DEĞİL
-
         // atama  =
         // eşittir ==
 
