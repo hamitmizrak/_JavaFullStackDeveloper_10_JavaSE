@@ -94,9 +94,10 @@ public class _11_Örnekler {
             }
         }
 
-
-
-        // ÖRNEK-4: Kullanıcının girdiği sembole göre harf mi, sayı mı , özel karakter mi bulan  java algoritması?
+        // ÖRNEK-4: Kullanıcının girdiği sembole göre;
+        // harf mi,
+        // sayı mı ,
+        // özel karakter mi bulan  java algoritması? (Character.isLetter())
 
         // ÖRNEK-5 VKI (Vucut Kitle Index) Hesaplama
         // Kullanıcıdan alınan ağırlık ve kiloya göre VKI hesaplayan Java Algoritmasını yazınız ?
