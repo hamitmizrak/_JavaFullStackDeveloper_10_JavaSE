@@ -126,8 +126,6 @@ public class _11_Örnekler {
         // Bu sayılar içinde tek sayı toplamı
         // Bu sayılar içinde tek sayı adeti
 
-
-
         Scanner klavye=new Scanner(System.in);
         System.out.println("Son sınır sayısını giriniz.");
         int sumAll=0,sumOdd=0;
