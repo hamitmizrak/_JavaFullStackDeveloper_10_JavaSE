@@ -3,6 +3,9 @@ package com.hamitmizrak._01_WhatIsJava;
 public class _04_Math {
     public static void main(String[] args) {
 
+        System.out.println(Math.E);
+        System.out.println(Math.PI);
+
         System.out.println(Math.min(2,100));
         System.out.println(Math.max(2,100));
 
