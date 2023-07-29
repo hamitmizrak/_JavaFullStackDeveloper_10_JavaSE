@@ -17,5 +17,42 @@ public class _04_Math {
 
         System.out.println(Math.sin(45));
 
+        // hipotenüs
+        // Kullanıcıdan alınan 2 sayı üçgenin dik kenarlarıdır hipotenüs uzunluğunu
+        // bulalım
+        // 1.dikkenar:3
+        // 2.dikkenar:4
+        // hipotenüs: 3*3+4*4 => karekökü
+
+        // escape character
+        // System
+        // Scanner
+
+        // ÖDEVLER
+        // 1.soru
+        // 1.dereceden 2 bilinmeyenli denklem
+        // y=3x+4k;
+        // x=5;
+        // k=3
+        // y = ?( cevap:27)
+
+        // 2.soru
+        // Dereceyi Fahrenhayt
+        // (derece*9/5)+32
+        // 0 derece  kaç fahrenhayttır ? (Cevap: 32)
+
+        // 3.soru iki sayıda dört işlem// x1=4, x2=2;
+        // Toplama =?
+        // Çıkarma =?
+        // Çarpması ?
+        // Bölüm = ?
+        //Bölümünde kalan ?
+
+        // 4.soru VKI
+        // VKI: Vücut Kitle Indeki hesaplayana algoritma yazınız ?
+        // boy=181 CM
+        // kilo: 92 KG
+        // Erkek/ Bayan için Formül: VKI=kilo/boy*boy
+
     }
 }
