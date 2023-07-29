@@ -1,4 +1,4 @@
-package _01_WhatIsJava;
+package com.hamitmizrak._01_WhatIsJava;
 
 public class _01_PSVM {
     //psvm

@@ -1,9 +1,21 @@
 package com.hamitmizrak._01_WhatIsJava;
 
-public class _01_PSVM {
-    //psvm
+public class _02_Variable {
     public static void main(String[] args) {
-        //sout
-        System.out.println("Merhabalar Nasılsınız");
+
+        // common roles
+        String pencilName = "Malatya";
+
+        String pencilName44 = "Malatya";
+
+        String $pencilName44 = "Malatya";
+
+        String _pencilName44 = "Malatya";
+
+        // yazamazsınız
+        //String 44pencilName = "Malatya";
+        //String &44pencilName = "Malatya";
+        //String ~44pencilName = "Malatya";
+
     }
 }
