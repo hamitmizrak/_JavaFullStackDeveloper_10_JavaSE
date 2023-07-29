@@ -17,7 +17,7 @@ public class _05_Scanner {
         // System.out(); //çıktı almak
 
         // Scanner
-        Scanner klavye=new Scanner(System.in);
+        java.util.Scanner klavye=new Scanner(System.in);
         System.out.println("Lütfen Adınızı soyadınız giriniz");
         String nameAndSurname=klavye.nextLine();
         System.out.println(nameAndSurname);
