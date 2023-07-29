@@ -1,5 +1,6 @@
 package com.hamitmizrak._01_WhatIsJava;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class _11_Örnekler {
@@ -67,7 +68,7 @@ public class _11_Örnekler {
         // HIZ>=150  hızlısınız, yavaşlayın ceza: 50000TL ve ehliyetine el konuldu.
         // Kullanıcının toplam para cezasını göstersin
 
-        Scanner scanner =new Scanner(System.in);
+      /*  Scanner scanner =new Scanner(System.in);
         int sum=0;
         for (;;) {
             System.out.println("Hız giriniz : ");
@@ -92,29 +93,73 @@ public class _11_Örnekler {
                 System.out.println("Toplam para cezanız: "+sum);
                // break;
             }
-        }
+        }*/
 
         // ÖRNEK-4: Kullanıcının girdiği sembole göre;
         // harf mi,
-        // sayı mı ,
+        // sayı mı,
         // özel karakter mi bulan  java algoritması? (Character.isLetter())
+        /*for(;;){
+            Scanner scanner =new Scanner(System.in);
+            System.out.print("\nkarakter giriniz:");
+            char userChar=scanner.nextLine().charAt(0);
+
+            if (Character.isAlphabetic(userChar))
+                System.out.println("Harf girdiniz.");
+
+            else if(Character.isDigit(userChar))
+                System.out.println("Sayı girdiniz.");
+
+            else
+                System.out.println("Özel karakter girdiniz.");
+        }*/
 
         // ÖRNEK-5 VKI (Vucut Kitle Index) Hesaplama
         // Kullanıcıdan alınan ağırlık ve kiloya göre VKI hesaplayan Java Algoritmasını yazınız ?
         // Formül: BMI = Ağırlık (kg) / Boy^2
 
         // ÖRNEK-6
-        // Örnek: 1-10 arasında 5 tane random sayı üretelim ?
+        // Örnek: 1<=<UserData arasında 5 tane random sayı üretelim ?
         // Bu sayılar nelerdir
         // Bu sayıları toplayalım
+        // Bu sayılar içinde tek sayılar nelerdir ?
         // Bu sayılar içinde tek sayı toplamı
         // Bu sayılar içinde tek sayı adeti
+
+
+
+        Scanner klavye=new Scanner(System.in);
+        System.out.println("Son sınır sayısını giriniz.");
+        int sumAll=0,sumOdd=0;
+        int counterOdd=0;
+        String allNumber="",oddNumber="";
+        int userValue=klavye.nextInt();
+        if(userValue>1){
+            for (int i = 0; i <5 ; i++) {
+                Random random=new Random();
+                int numberRandom=random.nextInt(userValue)+1;
+                sumAll+=numberRandom;
+                allNumber+=numberRandom+" ";
+                if(numberRandom%2==1){
+                    sumOdd+=numberRandom;
+                    oddNumber+=numberRandom+" ";
+                    counterOdd++;
+                }
+
+            }
+        }
+        System.out.println("Bütün sayılar: "+allNumber);
+        System.out.println("Bütün Toplam: "+sumAll);
+
+        System.out.println("\nTek sayılar adeti "+ counterOdd);
+        System.out.println("Tek sayılar "+ oddNumber);
+        System.out.println("Tek sayı Toplamları  "+ sumOdd);
 
 
         // ÖRNEK-7 : Sayı Tahmin oyunu ?
         // Bilgisayar rastgele 1-20 arasında bir sayı üretsin bizde bnu sayıyı tahmin edelim.
         // Validation: Kullanıcı bilgisayarın ürettiği bu sayı için 3 hakkı bulunmaktadır.
-        // eEğer kullanıcı bilgisayar sayıyısına yakınlığı 5 eksik ve fazlaysa söylesin.
+        // Eğer kullanıcı bilgisayar sayıyısına yakınlığı 5 eksik ve fazlaysa söylesin.
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // ÖDEV-1
