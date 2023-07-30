@@ -5,19 +5,6 @@ import java.util.Scanner;
 // data type
 
 
-// ÖDEV: Asal sayı  yazınız ?
-// Java By Pass value mi ? (Kubilay)
-// decoder encoder araştırma ödevi ? (Faruk)
-// JAR-WAR  araştırma ödevi ? (Anıl)
-// String ters yazmak (StringReverse) ==>Girilen kelimeyi ters yazdıran algoritma ?
-// Palindrom (Metotla yapıyorsunuz)// Girilen bir kelimenin tersten okunuşu ve düzden okunuşu aynı ise AMA
-
-// GELECEK HAFTA: Diziler, başlıyoruz.
-// FILE
-// Thread
-// COLLECTION
-// OOP GİRİŞ, inheritance, abstract, interface
-// Java 8 gelen özellikler
 public class _18_EnumRecursiveMethod_IterativeMethod {
 
     // Kullanıcıdan alına bir sayıyı faktöriyeli hesaplayan java algoritmasını yazınız. ?
