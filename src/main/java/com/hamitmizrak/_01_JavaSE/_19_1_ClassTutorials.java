@@ -19,8 +19,6 @@ public class _19_1_ClassTutorials {
         this.userSurname = userSurname;
     }
 
-
-
     @Override
     public int hashCode() {
         return Objects.hash(userName, userSurname);
