@@ -3,7 +3,7 @@ package com.hamitmizrak._01_WhatIsJava;
 import java.util.Random;
 import java.util.Scanner;
 
-public class _11_Örnekler {
+public class _11_Examples {
     public static void main(String[] args) {
 
         // ÖRNEK-1
