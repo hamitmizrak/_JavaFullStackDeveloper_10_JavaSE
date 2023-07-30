@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 // ENUM: aylar, günler, ölçüler: genel geçer herkes için aynı olan durumlara denir.
 // data type
- enum ChooiseIterativeRecursive{
-     ITERATIVE_ENUM,RECURSIVE_ENUM
-}
+
 
 // ÖDEV: Asal sayı  yazınız ?
 // Java By Pass value mi ? (Kubilay)
@@ -76,7 +74,7 @@ public class _18_EnumRecursiveMethod_IterativeMethod {
     public void chooiseIterativeOrRecursive() throws _0_HamitMizrak {
         for (; ; ) {
             Scanner klavye = new Scanner(System.in);
-            System.out.println("\nLütfen Seçiniz:\n1-)"+ChooiseIterativeRecursive.ITERATIVE_ENUM.toString()+ "\n2-)"+ChooiseIterativeRecursive.RECURSIVE_ENUM.toString());
+            System.out.println("\nLütfen Seçiniz:\n1-)"+_18_ChooiseIterativeRecursive.ITERATIVE_ENUM.toString()+ "\n2-)"+_18_ChooiseIterativeRecursive.RECURSIVE_ENUM.toString());
             int chooise = klavye.nextInt();
             switch (chooise) {
                 case 1:
