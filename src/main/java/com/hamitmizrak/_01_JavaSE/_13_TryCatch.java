@@ -1,7 +1,6 @@
-package com.hamitmizrak._01_WhatIsJava;
+package com.hamitmizrak._01_JavaSE;
 
 import java.io.IOException;
-import java.util.Date;
 
 public class _13_TryCatch {
     public static void main(String[] args) throws ArithmeticException, _0_HamitMizrak, IOException {

@@ -1,7 +1,6 @@
-package com.hamitmizrak._01_WhatIsJava;
+package com.hamitmizrak._01_JavaSE;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class _06_Random {
     public static void main(String[] args) {

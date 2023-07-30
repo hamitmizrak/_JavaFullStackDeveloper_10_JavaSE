@@ -1,4 +1,4 @@
-package com.hamitmizrak._01_WhatIsJava;
+package com.hamitmizrak._01_JavaSE;
 
 public class _02_Variable {
     public static void main(String[] args) {

@@ -1,8 +1,6 @@
-package com.hamitmizrak._01_WhatIsJava;
+package com.hamitmizrak._01_JavaSE;
 
 import java.util.Date;
-import java.util.Random;
-import java.util.Scanner;
 
 public class _12_Date {
     public static void main(String[] args) {

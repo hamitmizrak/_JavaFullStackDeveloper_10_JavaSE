@@ -1,6 +1,4 @@
-package com.hamitmizrak._01_WhatIsJava;
-
-import org.w3c.dom.ls.LSOutput;
+package com.hamitmizrak._01_JavaSE;
 
 import java.util.UUID;
 
@@ -27,13 +25,14 @@ public class _15_OtherCommon {
         // Encapsulation (private)
         // Override
         // Overloading
+
         // Access Modifier
         // public, protected, private, -(friendly,default)
-
 
         // Recursive,-iterative method
         // Faktöriyel iterative ve recursive yazınız ?
         // ENUM
+
         // ÖDEV: Asal sayı  yazınız ?
         // Java By Pass value mi ? (Kubilay)
         // decoder encoder araştırma ödevi ? (Faruk)

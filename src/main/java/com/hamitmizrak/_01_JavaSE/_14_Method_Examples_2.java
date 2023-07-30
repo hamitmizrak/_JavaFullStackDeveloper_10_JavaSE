@@ -1,4 +1,4 @@
-package com.hamitmizrak._01_WhatIsJava;
+package com.hamitmizrak._01_JavaSE;
 
 import java.util.Scanner;
 

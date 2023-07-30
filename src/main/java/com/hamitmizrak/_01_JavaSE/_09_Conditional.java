@@ -1,4 +1,4 @@
-package com.hamitmizrak._01_WhatIsJava;
+package com.hamitmizrak._01_JavaSE;
 
 public class _09_Conditional {
     public static void main(String[] args) {
