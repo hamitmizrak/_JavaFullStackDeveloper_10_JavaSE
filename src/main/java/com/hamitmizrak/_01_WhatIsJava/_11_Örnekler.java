@@ -191,6 +191,5 @@ public class _11_Örnekler {
         // adı: ilk harf büyük son harf küçük arada kaç tane harf varsa o kadar * eklensin.
         // soyad: ilk 3 harfi Büyük sonra * eklensin
         // Hamit Mızrak ==> H***T MIZ***
-
     }
 }
