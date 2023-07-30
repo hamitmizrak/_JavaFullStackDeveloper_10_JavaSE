@@ -44,7 +44,8 @@ public class _04_Math {
         // (derece*9/5)+32
         // 0 derece  kaç fahrenhayttır ? (Cevap: 32)
 
-        // 3.soru iki sayıda dört işlem// x1=4, x2=2;
+        // 3.soru iki sayıda dört işlem
+        // x1=4, x2=2;
         // Toplama =?
         // Çıkarma =?
         // Çarpması ?

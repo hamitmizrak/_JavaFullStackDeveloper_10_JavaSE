@@ -62,10 +62,10 @@ public class _11_Örnekler {
 
         // ÖRNEK-3
         // Radar uygulaması, Kullanıcıdan alınan sayıya göre, eğer hızınız;
-        // HIZ>=90  yavaşlayın
-        // HIZ>=110  hızlısınız, yavaşlayın ceza: 5000TL
-        // HIZ>=130  hızlısınız, yavaşlayın ceza: 10000TL
-        // HIZ>=150  hızlısınız, yavaşlayın ceza: 50000TL ve ehliyetine el konuldu.
+        // 80<=HIZ<=90    yavaşlayın
+        // 91<=HIZ<=110   hızlısınız, yavaşlayın ceza: 5000TL
+        // 111<=HIZ<=130  hızlısınız, yavaşlayın ceza: 10.000TL
+        // 131<=HIZ<=150  hızlısınız, yavaşlayın ceza: 50000TL ve ehliyetine el konuldu.
         // Kullanıcının toplam para cezasını göstersin
 
       /*  Scanner scanner =new Scanner(System.in);
@@ -116,7 +116,7 @@ public class _11_Örnekler {
 
         // ÖRNEK-5 VKI (Vucut Kitle Index) Hesaplama
         // Kullanıcıdan alınan ağırlık ve kiloya göre VKI hesaplayan Java Algoritmasını yazınız ?
-        // Formül: BMI = Ağırlık (kg) / Boy^2
+        // Formül: BMI = Ağırlık (kg) /Boy*Boy
 
         // ÖRNEK-6
         // Örnek: 1<=<UserData arasında 5 tane random sayı üretelim ?
@@ -128,9 +128,9 @@ public class _11_Örnekler {
 
         Scanner klavye=new Scanner(System.in);
         System.out.println("Son sınır sayısını giriniz.");
-        int sumAll=0,sumOdd=0;
-        int counterOdd=0;
-        String allNumber="",oddNumber="";
+        int sumAll=0,sumOdd=0,sumEven=0;
+        int counterOdd=0,counterEven=0;
+        String allNumber="",oddNumber="",evenNumber="";
         int userValue=klavye.nextInt();
         if(userValue>1){
             for (int i = 0; i <5 ; i++) {
@@ -142,6 +142,10 @@ public class _11_Örnekler {
                     sumOdd+=numberRandom;
                     oddNumber+=numberRandom+" ";
                     counterOdd++;
+                }else{
+                    sumEven+=numberRandom;
+                    evenNumber+=numberRandom+" ";
+                    counterEven++;
                 }
 
             }
@@ -152,6 +156,10 @@ public class _11_Örnekler {
         System.out.println("\nTek sayılar adeti "+ counterOdd);
         System.out.println("Tek sayılar "+ oddNumber);
         System.out.println("Tek sayı Toplamları  "+ sumOdd);
+
+        System.out.println("\nÇift sayılar adeti "+ counterEven);
+        System.out.println("Çift sayılar "+ evenNumber);
+        System.out.println("Çift sayı Toplamları  "+ sumEven);
 
 
         // ÖRNEK-7 : Sayı Tahmin oyunu ?

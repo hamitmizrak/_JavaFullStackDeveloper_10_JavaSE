@@ -1,6 +1,6 @@
 package com.hamitmizrak._01_WhatIsJava;
 
-public class _09_Cast {
+public class _07_Cast {
     public static void main(String[] args) {
 
         float f1=14.56f;
