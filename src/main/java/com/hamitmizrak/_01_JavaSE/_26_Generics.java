@@ -5,7 +5,6 @@ package com.hamitmizrak._01_JavaSE;
 // OOP GİRİŞ, inheritance, abstract, interface
 // Java 8 gelen özellikler
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
