@@ -60,6 +60,5 @@ public class _22_Array {
             }
             System.out.println();
         }
-
     }
 }
