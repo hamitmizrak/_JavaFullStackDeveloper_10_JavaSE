@@ -6,7 +6,7 @@ package com.hamitmizrak._01_JavaSE;
 
 import java.util.*;
 
-public class _27_CollectionsSet {
+public class _28_CollectionsSet {
 
     public static void main(String[] args) {
 
