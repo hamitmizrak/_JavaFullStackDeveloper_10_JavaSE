@@ -10,12 +10,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
 public class _26_Generics<T> {
 
     private String name;
     private T surname;
+
+    public _26_Generics(String name, T surname) {
+        this.name = name;
+        this.surname = surname;
+    }
 
     public static void main(String[] args) {
         _26_Generics data = new _26_Generics();
