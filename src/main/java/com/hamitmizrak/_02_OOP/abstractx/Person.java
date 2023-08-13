@@ -1,9 +1,9 @@
-package com.hamitmizrak._02_OOP.inheritancex;
+package com.hamitmizrak._02_OOP.abstractx;
 
 import lombok.Data;
 
 @Data
-public class Person {
+abstract public class Person {
     private Long id;
     private String username;
     private String emailAddress;
@@ -13,4 +13,5 @@ public class Person {
     public void govdeliMethod(String data){
         System.out.println(data+" ");
     }
+    abstract public void govdesizMethod(String data);
 }
