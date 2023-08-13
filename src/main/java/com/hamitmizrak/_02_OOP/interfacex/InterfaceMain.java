@@ -1,6 +1,8 @@
 package com.hamitmizrak._02_OOP.interfacex;
 
-public class InterfaceMain implements ICrud{
+import java.io.Serializable;
+
+public class InterfaceMain implements ICrud, Serializable {
     @Override
     public void create() {
         System.out.println("create");
