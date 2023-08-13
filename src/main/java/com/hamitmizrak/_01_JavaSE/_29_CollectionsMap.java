@@ -10,8 +10,8 @@ public class _29_CollectionsMap {
 
     public static void main(String[] args) {
 
-        //Map<Integer,String> mapList=new HashMap<>();
-        //Map<Integer,String> mapList=new LinkedHashMap<>();
+        // Map<Integer,String> mapList=new HashMap<>();
+        // Map<Integer,String> mapList=new LinkedHashMap<>();
         Map<String,String> mapList=new TreeMap<>();
         mapList.put(UUID.randomUUID().toString(),"Ankara");
         mapList.put(UUID.randomUUID().toString(),"MAlatya");
@@ -36,5 +36,4 @@ public class _29_CollectionsMap {
 
         System.out.println("size: "+mapList.size());
     }
-
 }

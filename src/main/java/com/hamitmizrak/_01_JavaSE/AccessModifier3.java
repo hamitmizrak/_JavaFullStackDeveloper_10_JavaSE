@@ -1,4 +1,4 @@
-package com.hamitmizrak._02_OOP;
+package com.hamitmizrak._01_JavaSE;
 
 import com.hamitmizrak._01_JavaSE._16_AccessModifier;
 
